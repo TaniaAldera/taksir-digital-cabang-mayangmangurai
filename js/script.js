@@ -39,10 +39,10 @@ let myChart = null;
 let itemCounter = 0;
 let itemsData = [];
 
-const STL_PERHIASAN = 2290196;
-const STL_GALERI24 = 2358902;
-const STL_ANTAM = 2290196;
-const STL_UBS = 2290196;
+const STL_PERHIASAN = 2258510;
+const STL_GALERI24 = 2326265;
+const STL_ANTAM = 2258510;
+const STL_UBS = 2258510;
 
 function getSTLBatangan() {
   const v = document.getElementById("merekBatangan")?.value || "galeri24";
@@ -516,17 +516,17 @@ function hitungCompare() {
 
 /* ===== CICIL EMAS LOGIC ===== */
 const hargaEmas = {
-  0.5: 1486000,
-  1: 2833000,
-  2: 5597000,
-  5: 13889000,
-  10: 27704000,
-  25: 68889000,
-  50: 137668000,
-  100: 275200000,
-  250: 686310000,
-  500: 1372618000,
-  1000: 2745235000,
+  0.5: 1446000,
+  1: 2756000,
+  2: 5444000,
+  5: 13511000,
+  10: 26951000,
+  25: 67015000,
+  50: 133923000,
+  100: 267714000,
+  250: 667640000,
+  500: 1335279000,
+  1000: 2670557000,
 };
 let currentMargin = 0.0092,
   customDPRupiah = 0;
