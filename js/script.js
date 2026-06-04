@@ -39,10 +39,10 @@ let myChart = null;
 let itemCounter = 0;
 let itemsData = [];
 
-const STL_PERHIASAN = 2252781;
-const STL_GALERI24 = 2320665;
-const STL_ANTAM = 2252781;
-const STL_UBS = 2252781;
+const STL_PERHIASAN = 2236920;
+const STL_GALERI24 = 2304028;
+const STL_ANTAM = 2236920;
+const STL_UBS = 2236920;
 
 function getSTLBatangan() {
   const v = document.getElementById("merekBatangan")?.value || "galeri24";
